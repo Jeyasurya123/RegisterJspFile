@@ -20,7 +20,7 @@ public class RegisterController {
 		return "index";		
 	}
 	
-	@PostMapping("addAlien")
+	@GetMapping("addAlien")
 	public ModelAndView addAlien(String email,String psw,String repeat,ModelAndView m)
 	{
 		Alien alien=new Alien();
